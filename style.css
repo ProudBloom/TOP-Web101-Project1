@@ -1,0 +1,69 @@
+body
+{
+    font-size: small;
+}
+
+.logo
+{
+    text-align: center;
+    margin-top: 200px; 
+}
+
+.search
+{
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.search input
+{
+    border-style: solid;
+    height: 40px;
+    width: 500px;
+    border-width: 1px;
+    border-radius: 30px;
+    line-height: 1.2;
+    font-size: 120%;
+    padding-right: 80px;
+    padding-left: 40px;
+    border-color: #dfe1e5;
+}
+
+.search input:hover
+{   
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+.search input:focus
+{
+    outline: none;
+}
+
+.search img
+{
+    display: block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 12px;
+    right: 690px;
+    color: #9AA0A6
+}
+
+.buttons
+{
+    text-align: center;
+}
+
+.buttons button
+{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+#glogo
+{
+    height: 90px;
+    width: 270px;
+}
