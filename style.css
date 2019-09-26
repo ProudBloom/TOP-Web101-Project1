@@ -1,10 +1,55 @@
 body
 {
     font-size: small;
+    font-family: arial,sans-serif;
+}
+
+nav
+{
+    font-size: 13;
+    text-align: right;
+    display: block;
+    margin-right: -10px;
+    margin-top: 10px;
+}
+
+nav a
+{
+    display: inline block;
+    text-decoration: none;
+    color: black;
+    margin: 10px 15px 0px 2px;
+    padding-top: 10px; 
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+}
+
+#grid_img
+{
+    width: 15px;
+    height: 15px;
+}
+
+#sign_in
+{
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    color: white;
+    text-decoration: none;
 }
 
 .logo
 {
+    display: block;
     text-align: center;
     margin-top: 200px; 
     margin-bottom: 30px;
